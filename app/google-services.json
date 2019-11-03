@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "527846180795",
+    "firebase_url": "https://roadcomplaint-c7b5f.firebaseio.com",
+    "project_id": "roadcomplaint-c7b5f",
+    "storage_bucket": "roadcomplaint-c7b5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527846180795:android:2061cdd017b4ff48",
+        "android_client_info": {
+          "package_name": "com.example.android.roadcomplaint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527846180795-hvea1o70c16evb60m53gfcnt7t5bbchi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.roadcomplaint",
+            "certificate_hash": "a106947372ddba1d97c8d9a85510e32082460242"
+          }
+        },
+        {
+          "client_id": "527846180795-4bi4o43uf9qbhlhja0mec52bm0si1pso.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjzlPKIPaUb-RwM29-HAJYofaT-8PeTk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527846180795-4bi4o43uf9qbhlhja0mec52bm0si1pso.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303030"
+    android:orientation="vertical"
+    tools:context="com.example.android.roadcomplaint.MainActivity">
+
+    <Button
+        android:id="@+id/so"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:text="signout"
+        android:onClick="signout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_below="@id/so"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <Button
+        android:background="#ba160c"
+        android:onClick="roadcomplaint"
+        android:text="Register Road Damage Complaint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+    <Button
+        android:textColor="#ffffff"
+        android:background="#9acd32"
+        android:onClick="mycomplaints"
+        android:text="My Registered Complaints"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+    </LinearLayout>
+
+</RelativeLayout>
